@@ -9,8 +9,8 @@ var config = {
 		path: DIST_DIR + "/app",
 		filename: "bundle.js",
 		publicPath: "/app/"
-	}/*,
-	modules: {
+	},
+	module: {
 		loaders: [
 			{
 				test: /\.js?/,
@@ -21,7 +21,7 @@ var config = {
 				}
 			}
 		]
-	}*/
+	}
 };
 
 module.exports = config;
